@@ -1,0 +1,8 @@
+/* Navbar Links */
+.nav-item .nav-link {
+    color: #FFFFFF;
+}
+
+.nav-item .nav-link:hover {
+    color: #9BF0E1;
+}
