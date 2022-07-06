@@ -69,6 +69,24 @@ nav.navbar-transparent {
 
 /* ________________ */
 
+/* _____Services_____ */
+
+#services {
+  background-color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#services h2, h3 {
+  color: #7C25F8;
+}
+
+.albuns {
+  padding: 10px 0px;
+}
+
+/* __________________ */
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .btn-custom {
