@@ -2,6 +2,7 @@ html,
 body,
 #home {
   height: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -77,8 +78,9 @@ nav.navbar-transparent {
   padding-bottom: 20px;
 }
 
-#services h2, h3 {
-  color: #7C25F8;
+#services h2,
+h3 {
+  color: #7c25f8;
 }
 
 .albuns {
@@ -87,11 +89,41 @@ nav.navbar-transparent {
 
 /* __________________ */
 
+/* _____Resources_____ */
+
+#resources {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#resources h2,
+#resources p {
+  color: #ffffff;
+}
+
+#resources h3 {
+  color: #9bf0e1;
+}
+
+.rotate {
+  padding-left: 80px;
+  transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+}
+
+/* ___________________ */
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .btn-custom {
     margin: 10px 15px;
     font-size: 0.8rem;
+  }
+
+  .rotate {
+    padding-left: 0px;
+    margin-top: 50px;
   }
 }
 
