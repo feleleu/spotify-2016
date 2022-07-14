@@ -134,6 +134,14 @@ footer ul li {
 
 /* ________________ */
 
+/* _____Controls_____ */
+
+.carousel-control-next, .carousel-control-prev{
+  width: 5%;
+}
+
+/* __________________ */
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .btn-custom {
